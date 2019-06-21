@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/normal"
+            android:title="normal" />
+
+        <item
+            android:title="emboss"
+            android:id="@+id/emboss" />
+
+        <item
+            android:id="@+id/blur"
+            android:title="blur" />
+
+        <item
+            android:id="@+id/clear"
+            android:title="clear" />
+    </group>
+</menu>
